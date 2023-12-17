@@ -8,8 +8,8 @@ const app = express();
 
 app.use(cors(
 {
-    origin: ["https://client-ten-psi.vercel.app","https://www.postman.com/","http://localhost:3000"],
-    methods: ["POST", "GET", "PATCH"], // Perubahan disini ke 'methods'
+    origin: ["https://client-ten-psi.vercel.app","https://www.postman.com/","http://localhost:3000","https://client-po4.vercel.app"],
+    methods: ["POST", "GET", "PATCH", "DELETE" ], // Perubahan disini ke 'methods'
     credentials: true,
 }));
 

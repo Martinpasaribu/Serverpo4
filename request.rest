@@ -8,9 +8,13 @@ POST  http://localhost:5000/products
 Content-Type: application/json
 
 {
-    "name": "coba coba",
+    "name": "coba 3 coba",
     "price": 1000000
 }
+
+###
+DELETE  http://localhost:5000/products/4
+Content-Type: application/json
 
 
 ###
